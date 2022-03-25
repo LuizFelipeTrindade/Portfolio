@@ -91,15 +91,14 @@ span {
 }
 
 .container .ctn h3{
-    display:flex;
-    position:relative;
-    margin-top: 15%;
-    margin-left:-42%;
+    
+    margin-top: 24%;
+    margin-left:-30%;
     padding:20px;
 }
 .container .ctn h3 a {
     text-decoration:none;
-    background-color: #528DD9;
+    background-color: #F2055C;
     
     color:white;
     border-radius: 5px;
@@ -110,18 +109,16 @@ span {
 
 
 .container .ctn a:hover {
-    padding: 10px;
-    border-radius: 5px;
     font-weight: bold;
     transition-duration: 0.3s;
     color:white;
-    padding: 20px;
+    padding: 30px;
     font-family: 'Poppins', sans-serif;
 }
 
 .container .omg {
     margin-left: 50%;
-    margin-top:-21%;
+    margin-top:-25%;
     transform: translatey(0px);
     animation: float 3s ease-in-out infinite;
 } 
