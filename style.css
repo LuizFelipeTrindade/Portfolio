@@ -72,7 +72,7 @@ span {
 
 .container .ctn h2 {
     color:white;
-    font-family:  'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 65px;
     margin-left: 5%;
 }
@@ -108,9 +108,10 @@ span {
 
 
 
+
 .container .ctn a:hover {
     font-weight: bold;
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
     color:white;
     padding: 30px;
     font-family: 'Poppins', sans-serif;
