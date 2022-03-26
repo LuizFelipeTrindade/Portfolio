@@ -6,11 +6,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital@1&family=Rubik:wght@500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
+
 
 span {
     color:#F2055C;
@@ -61,6 +64,7 @@ span {
     background-size: 100% 100%;
     height: 100vh;
     padding-top: 1px;
+    
 }
 
 .container .ctn{
@@ -93,7 +97,7 @@ span {
 .container .ctn h3{
     
     margin-top: 24%;
-    margin-left:-30%;
+    margin-left:-31%;
     padding:20px;
 }
 .container .ctn h3 a {
@@ -141,7 +145,6 @@ span {
 .containertwo {
     background-image: url(pexels-philippe-donn-1257860.jpg);
     background-position: center center;
-    
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 100vh;
@@ -153,6 +156,27 @@ span {
     margin-top: 12%;
 }
 
-.containertwo .aim .project {
-    
+strong {
+    color:#F2055C;
+}
+
+.containertwo .project h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 65px;
+    color: #fff;
+    position:absolute;
+
+    margin-top: -14%;
+    margin-left:10%;
+}
+
+.containertwo .project  {
+    position:relative;
+}
+
+.containertwo .project img {
+    display:block;
+    margin-top:-24%;
+    position:relative;
+    margin-left:10%;
 }
