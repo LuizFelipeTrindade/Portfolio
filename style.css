@@ -14,6 +14,30 @@
     box-sizing: border-box;
 }
 
+.fadeIn {
+    -webkit-animation: fadeIn 3s ease-in-out;
+    -moz-animation: fadeIn 3s ease-in-out;
+    -o-animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out;
+    }
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+
 
 span {
     color:#F2055C;
@@ -156,6 +180,7 @@ span {
     margin-top: 12%;
 }
 
+
 strong {
     color:#F2055C;
 }
@@ -179,4 +204,17 @@ strong {
     margin-top:-24%;
     position:relative;
     margin-left:10%;
+}
+
+.containertwo .projecttwo {
+    display:flex;
+    position:absolute;
+    margin-left: 10%;
+    margin-top:2%;
+}
+
+.containertwo .projecttwo img {
+    height: 10%;
+    width:10%;
+    margin-left: 5px;
 }
