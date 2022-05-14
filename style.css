@@ -183,4 +183,14 @@ span {
         margin-left: 20%;
     }
 
+    .container-two .cont-three {
+        display: inline-block;
+        position: relative;
+        margin-left: 22%;
+        margin-top: 3%;
+    }
+    .container-two .cont-three img {
+        width: 15%;
+        height: 10%;
+    }
 }
